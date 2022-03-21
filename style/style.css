@@ -1,0 +1,789 @@
+body {
+    margin: 0;
+    background-color: #f2f3f7;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    background-color: rgb(41, 25, 25);
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #0196e3;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    padding-left: 60px;
+}
+
+nav ul li a {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    /* font-family: 'Corinthia', cursive; */
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a {
+    color: #47b5ed;
+    font-family: 'Bellota Text', display;
+    float: left;
+    margin-left: 190px;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #f2f3f7;
+}
+
+.navbar nav {
+    margin-left: 40px;
+}
+
+.circle1 {
+    border-radius: 50px 50px 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 4px 4px 4px 4px white;
+    background-color: #f2f3f7;
+    float: left;
+    margin-left: 75%;
+    margin-top: -80px;
+}
+
+.circle2 {
+    border-radius: 50px 50px 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 4px 4px 4px 4px white;
+    background-color: #f2f3f7;
+    float: left;
+    margin-left: 83%;
+    margin-top: -80px
+}
+
+.circle3 {
+    border-radius: 50px 50px 50px 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 4px 4px 2px white;
+    background-color: #f2f3f7;
+    margin-top: px;
+    float: left;
+    margin-left: 90%;
+    margin-top: -80px;
+}
+
+.cyber,
+.safety {
+    font-family: 'Bellota Text', display;
+    float: left;
+    color: white;
+    background-color: #0196e3;
+}
+
+.cyber {
+    margin-top: 240px;
+    margin-left: 100px;
+    font-size: 55px
+}
+
+.safety {
+    margin-left: 210px;
+    margin-top: 250px;
+}
+
+.blue {
+    height: 550px;
+    width: 100%;
+    background-color: #0196e3;
+    float: left;
+    line-height: 1.5;
+}
+
+.blue hr {
+    float: left;
+    position: absolute;
+    background-color: black;
+}
+
+.our_f h1 {
+    font-family: 'Bellota Text', display;
+    text-align: center;
+    font-weight: bold;
+    color: #36187d;
+    font-size: 4rem;
+    height: fit-content;
+    margin-top: 40rem;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    width: 300px;
+    float: left;
+    margin-left: 85px;
+    border-radius: 50px;
+}
+
+.card img {
+    padding: 25px;
+    border-radius: 50px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.info {
+    padding: 2px 16px;
+}
+
+.about h1 {
+    font-weight: bolder;
+    font-family: 'Bellota Text', display;
+    color: #36187d;
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-left: 90px;
+}
+
+.about h4 {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    margin-left: 100px;
+}
+
+.about {
+    float: left;
+    margin-top: 100px;
+}
+
+.about img {
+    float: left;
+    border-radius: 50px;
+    margin-left: 600px;
+    margin-top: -360px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+}
+
+.about button {
+    color: white;
+    background-color: #35b8fc;
+    border: none;
+    border-radius: 50px;
+    float: left;
+    height: 60px;
+    width: 140px;
+    font-weight: 700;
+    font-family: 'Bellota Text', display;
+    margin-left: 90px;
+    margin-top: -60px
+}
+
+.lvl .lvl_txt h1 {
+    font-family: 'Bellota Text', display;
+    color: #36187d;
+    text-align: center;
+    /* margin-left: 370px; */
+    font-size: 42px;
+}
+
+.lvl {
+    margin-top: 150px;
+    float: left;
+    font-family: 'Bellota Text', display;
+}
+
+.box_virus {
+    float: left;
+    /* background-color: red; */
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    height: 240px;
+    width: 455px;
+    border-radius: 50px;
+    margin-left: 115px
+}
+
+.box_virus .virus_h h1 {
+    font-size: 40px;
+    color: #36187d;
+}
+
+.box_virus h4 {
+    color: #36187d;
+}
+
+.f_img img {
+    float: left;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-top: 140px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+}
+
+.s_f {
+    float: left;
+    margin-top: 170px;
+    margin-left: 60px;
+    font-family: 'Bellota Text', display;
+}
+
+.s_f .f_h h1 {
+    color: #36187d;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    line-height: 1.1;
+}
+
+.s_f h4 {
+    color: #6c758f;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.pro1 {
+    border-radius: 0.2rem;
+}
+
+.progress {
+    background: #e9ecef;
+    display: flex;
+    width: 100%;
+    height: 10px;
+    margin-top: -15px;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+.price_h h1 {
+    font-family: 'Bellota Text', display;
+    color: #36187d;
+    text-align: center;
+    /* margin-left: 370px; */
+    margin-top: 190px;
+    float: left;
+    font-size: 42px;
+}
+
+.p_card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    float: left;
+    text-align: center;
+    font-family: 'Bellota Text', display;
+    width: 300px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: -495px;
+    height: 500px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.p_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.l_1 ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.l_1 ul hr {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.l_1 ul li {
+    color: #6c758f;
+    font-size: 1.06rem;
+    line-height: 1.5;
+}
+
+.p_card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    float: left;
+    text-align: center;
+    font-family: 'Bellota Text', display;
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 370px;
+    margin-left: 50px;
+    height: 500px;
+}
+
+h6 {
+    font-weight: bolder;
+    color: #6c758f;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: 'Bellota Text', display;
+}
+
+.pr {
+    font-weight: bolder;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    color: #36187d;
+    margin-top: -35px;
+}
+
+.dr {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    font-weight: bolder;
+    margin-top: -40px;
+}
+
+.buy_btn {
+    color: white;
+    background-color: #35b8fc;
+    border: none;
+    border-radius: 50px;
+    float: left;
+    height: 60px;
+    width: 140px;
+    font-weight: 700;
+    font-family: 'Bellota Text', display;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.hstry {
+    float: left;
+    margin-left: -670px;
+    margin-top: 150px;
+}
+
+.hstry h1 {
+    font-family: 'Bellota Text', display;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    font-weight: bolder;
+    color: #36187d;
+}
+
+.circle1_h {
+    border-radius: 50px 50px 50px 50px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    background-color: #f2f3f7;
+    float: left;
+    margin-top: 300px;
+    margin-left: -650px
+}
+
+.circle2_h {
+    border-radius: 50px 50px 50px 50px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    background-color: #f2f3f7;
+    float: left;
+    margin-top: 515px;
+    margin-left: -77%;
+}
+
+.circle3_h {
+    border-radius: 50px 50px 50px 50px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    background-color: #f2f3f7;
+    float: left;
+    margin-top: 520px;
+    margin-left: -77%;
+}
+
+.num {
+    font-family: 'Bellota Text', display;
+    font-size: 2rem;
+    color: #35b8fc;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 12.5px;
+    text-align: center;
+}
+
+.date {
+    float: left;
+    margin-top: 275px;
+    margin-left: 250px;
+    font-family: 'Bellota Text', display;
+    margin-bottom: -270px;
+}
+
+.date h1 {
+    color: #36187d;
+    font-family: 'Bellota Text', display;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.date h2 {
+    font-family: 'Bellota Text', display;
+    color: #36187d;
+    margin-top: -20px;
+}
+
+.date h3 {
+    color: #6c758f;
+}
+
+.v_h {
+    font-family: 'Bellota Text', display;
+    color: #36187d;
+    margin-left: 500px;
+    margin-top: 425px;
+    float: left;
+    font-size: 30px;
+}
+
+.video {
+    float: left;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    border-radius: 50px;
+    margin-left: 140px;
+    height: 550px;
+}
+
+iframe {
+    border-radius: 50px;
+}
+
+.sec_team {
+    float: left;
+    margin-top: 200px;
+}
+
+.t1_card,
+.t2_card,
+.t3_card {
+    display: inline;
+    margin-left: 50px;
+    /* align-items: center; */
+}
+
+.sec_team img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-left: 57px;
+    margin-top: 20px;
+}
+
+.sec_team .t1_card {
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    width: 300px;
+    float: left;
+    margin-left: 145px;
+    border-radius: 50px;
+}
+
+.sec_team .t1_card h2 {
+    color: #36187d;
+    font-family: 'Bellota Text', display;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.sec_team .t1_card h3 {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    margin-left: 80px;
+}
+
+.sec_team .t2_card {
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    width: 300px;
+    float: left;
+    margin-left: 85px;
+    border-radius: 50px;
+}
+
+.sec_team .t2_card h2 {
+    color: #36187d;
+    font-family: 'Bellota Text', display;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.sec_team .t2_card h3 {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    margin-left: 120px;
+}
+
+.sec_team .t3_card {
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    width: 300px;
+    float: left;
+    margin-left: 85px;
+    border-radius: 50px;
+}
+
+.sec_team .t3_card h2 {
+    color: #36187d;
+    font-family: 'Bellota Text', display;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.sec_team .t3_card h3 {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    margin-left: 120px;
+}
+
+.award1_card {
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    width: 80%;
+    height: 230px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 200px;
+    margin-bottom: -130px;
+    border-radius: 50px;
+}
+
+.aw1 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: white;
+    object-fit: cover;
+    margin-left: 57px;
+    margin-top: 46px;
+}
+
+.aw_p {
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+.contact_card {
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    transition: 0.3s;
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-left: 145px;
+    border-radius: 50px;
+    margin-top: 400px;
+}
+
+.contact_card .inner h3 {
+    color: #36187d;
+    font-family: 'Bellota Text', display;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.contact_card .inner h4 {
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+    font-weight: bolder;
+}
+
+.c_n {
+    color: #0196e3;
+    font-size: 1.7rem;
+}
+
+.inner {
+    padding-left: 50px;
+}
+
+.map {
+    margin-top: 100px;
+    margin-left: 150px;
+    border: radius 50px;
+}
+
+.feed {
+    float: left;
+    margin-left: 125px;
+}
+
+.feed h1 {
+    color: #36187d;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    font-family: 'Bellota Text', display;
+}
+
+.feed .form_box {
+    float: left;
+    display: flex;
+}
+
+.nm {
+    padding: 1.5rem 2rem;
+    box-shadow: inset 1px 1px 2px 0 #d2dce9;
+    background-color: #edeff3;
+    border-radius: 3rem;
+    border: 0!important;
+    color: #000000;
+    transition: 0.4s;
+    outline: none;
+    width: 200%;
+    height: 20px;
+    font-family: 'Bellota Text', display;
+    font-weight: bolder;
+}
+
+.em {
+    padding: 1.5rem 2rem;
+    box-shadow: inset 1px 1px 2px 0 #d2dce9;
+    background-color: #edeff3;
+    border-radius: 3rem;
+    border: 0!important;
+    color: #000000;
+    transition: 0.4s;
+    outline: none;
+    width: 150%;
+    height: 20px;
+    font-family: 'Bellota Text', display;
+    font-weight: bolder;
+    float: left;
+    margin-right: 70px;
+}
+
+.phn {
+    padding: 1.5rem 2rem;
+    box-shadow: inset 1px 1px 2px 0 #d2dce9;
+    background-color: #edeff3;
+    border-radius: 3rem;
+    border: 0!important;
+    color: #000000;
+    transition: 0.4s;
+    outline: none;
+    width: 150%;
+    height: 20px;
+    font-family: 'Bellota Text', display;
+    font-weight: bolder;
+    float: left;
+    margin-right: -530px;
+}
+
+textarea {
+    min-height: 200px;
+    padding: 1.5rem 2rem;
+    box-shadow: inset 1px 1px 2px 0 #d2dce9;
+    background-color: #edeff3;
+    border-radius: 3rem;
+    border: 0!important;
+    color: #000000;
+    transition: 0.4s;
+    outline: none;
+    margin-top: 25px;
+    width: 150%;
+}
+
+.em_ph {
+    margin-top: 25px;
+}
+
+.s_msg {
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    background-color: #0196e3;
+    height: 60px;
+    width: 200px;
+    font-weight: bolder;
+    font-family: 'Bellota Text', display;
+    margin-top: 10px;
+}
+
+.d_nav {
+    margin-top: 150px;
+    float: left;
+    margin-left: 170px;
+    color: #6c758f;
+    font-weight: bolder;
+    font-family: 'Bellota Text', display;
+    font-size: 17px;
+}
+
+.d_nav ul {
+    list-style: none;
+    margin-left: 570px;
+}
+
+.d_nav ul li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.d_nav hr {
+    width: 1030px;
+    opacity: 0.3;
+}
+
+footer {
+    float: left;
+    color: #6c758f;
+    font-family: 'Bellota Text', display;
+}
+
+footer h3 {
+    font-family: 'Bellota Text', display;
+    margin-left: 50px;
+}
